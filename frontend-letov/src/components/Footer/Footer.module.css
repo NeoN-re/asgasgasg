@@ -1,0 +1,60 @@
+.footer {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333333;
+  padding: 1rem 0;
+  margin-top: auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copyright {
+  text-align: left;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.rights {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  opacity: 0.6;
+}
+
+.linksColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: right;
+}
+
+.link {
+  color: #333333;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+
+.link:hover {
+  opacity: 1;
+  color: #b26d31;
+  transform: translateX(-3px);
+}

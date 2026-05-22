@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #c7ae73 0%, #a1575d 100%);
+  min-height: 100vh;
+}
+
+body {
+  background-color: #1a1a2e;
+}
